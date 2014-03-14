@@ -7,7 +7,5 @@ Ubuntu 12.04 with node.js and PhantomJS.
 
 ## Usage
 
-```
-sudo docker pull rouge8/browsers
-sudo docker run rouge8/browsers phantomjs --version  # 1.9.7
-```
+    sudo docker pull rouge8/browsers
+    sudo docker run rouge8/browsers phantomjs --version  # 1.9.7
