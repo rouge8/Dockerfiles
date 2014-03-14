@@ -3,7 +3,7 @@ docker-browsers
 
 Scripts and Dockerfile used to generate a container with Xvfb and common web browsers installed.
 
-Based heavily on [drone/images](https://github.com/drone/images).
+<https://index.docker.io/u/rouge8/browsers/>
 
 ## Usage
 
