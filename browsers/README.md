@@ -1,4 +1,4 @@
-docker-browsers
+rouge8/browsers
 ===============
 
 Scripts and Dockerfile used to generate a container with Xvfb and common web browsers installed.
