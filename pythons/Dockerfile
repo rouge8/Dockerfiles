@@ -19,5 +19,6 @@ RUN apt-get update \
     python3.4 python3.4-dev \
     pypy pypy-dev \
     python-pip \
+    git \
     --no-install-recommends
 RUN pip install tox
