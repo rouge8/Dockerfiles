@@ -18,9 +18,11 @@ RUN apt-get update \
     python3.3 python3.3-dev \
     python3.4 python3.4-dev \
     pypy pypy-dev \
-    python-pip \
+    python \
     git \
+    curl ca-certificates \
     --no-install-recommends
+RUN curl https://bootstrap.pypa.io/get-pip.py | python -
 RUN pip install tox
 
 # Sane locale setting
