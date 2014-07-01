@@ -23,7 +23,7 @@ RUN apt-get update \
     curl ca-certificates \
     --no-install-recommends
 RUN curl https://bootstrap.pypa.io/get-pip.py | python -
-RUN pip install tox
+RUN pip install tox virtualenv wheel
 
 # Sane locale setting
 RUN locale-gen en_US.UTF-8
