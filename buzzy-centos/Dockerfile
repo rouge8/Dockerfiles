@@ -1,4 +1,4 @@
-FROM centos:6.4
+FROM centos:centos6
 MAINTAINER Andy Freeland <andy.freeland@redjack.com>
 
 # Development tools
