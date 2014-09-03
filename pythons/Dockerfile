@@ -11,6 +11,7 @@ RUN apt-key adv \
       --recv 2862D0785AFACD8C65B23DB0251104D968854915
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -yq \
+    ssh \
     python2.6 python2.6-dev \
     python2.7 python2.7-dev \
     python3.1 python3.1-dev \
