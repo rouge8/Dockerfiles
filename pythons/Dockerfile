@@ -18,7 +18,7 @@ RUN apt-get update \
     python3.2 python3.2-dev \
     python3.3 python3.3-dev \
     python3.4 python3.4-dev \
-    pypy pypy-dev \
+    pypy pypy-dev libffi-dev \
     python \
     git \
     curl ca-certificates \
