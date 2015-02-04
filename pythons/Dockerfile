@@ -22,7 +22,7 @@ RUN apt-get update \
     python \
     git \
     curl ca-certificates \
-    gcc \
+    gcc  make \
     --no-install-recommends
 RUN curl https://bootstrap.pypa.io/get-pip.py | python -
 RUN pip install tox virtualenv wheel
