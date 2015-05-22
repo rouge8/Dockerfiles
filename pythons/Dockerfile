@@ -27,6 +27,10 @@ RUN apt-get update \
 RUN curl https://bootstrap.pypa.io/get-pip.py | python -
 RUN pip install tox virtualenv wheel
 
+# World-writeable cache directory
+RUN mkdir -p /.cache
+RUN chmod a+rwx /.cache
+
 # Sane locale setting
 RUN locale-gen en_US.UTF-8
 env LANG en_US.UTF-8
