@@ -25,7 +25,7 @@ RUN apt-get update \
     gcc  make \
     --no-install-recommends
 RUN curl https://bootstrap.pypa.io/get-pip.py | python -
-RUN pip install tox virtualenv wheel
+RUN pip install virtualenv wheel
 
 # World-writeable cache directory
 RUN mkdir -p /.cache

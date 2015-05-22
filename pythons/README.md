@@ -5,8 +5,6 @@ Dockerfile for an Ubuntu 14.04 LTS container with Python 2.6, 2.7, 3.1, 3.2, 3.3
 
 Includes the latest (at build time) pip/virtualenv for /usr/bin/python.
 
-Also includes [tox](http://tox.readthedocs.org/en/latest/index.html) for testing goodness.
-
 <https://index.docker.io/u/rouge8/pythons/>
 
 ## Usage
