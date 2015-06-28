@@ -17,8 +17,6 @@ RUN apt-get update \
     ssh \
     python2.6 python2.6-dev \
     python2.7 python2.7-dev \
-    python3.1 python3.1-dev \
-    python3.2 python3.2-dev \
     python3.3 python3.3-dev \
     python3.4 python3.4-dev \
     pypy pypy-dev libffi-dev \
