@@ -1,7 +1,10 @@
 FROM ubuntu:trusty
 MAINTAINER Andy Freeland <andy@andyfreeland.net>
 
+# Python 2.6 and 3.x
 ADD fkrull-deadsnakes-trusty.list /etc/apt/sources.list.d/
+# Python 2.7.9+, including the SSL backports
+ADD fkrull-deadsnakes-python2.7-trusty.list /etc/apt/sources.list.d/
 RUN apt-key adv \
       --keyserver keyserver.ubuntu.com \
       --recv FF3997E83CD969B409FB24BC5BB92C09DB82666C
