@@ -1,7 +1,7 @@
 rouge8/pythons
 ===============
 
-Dockerfile for an Ubuntu 14.04 LTS container with Python 2.6, [2.7.9+][], 3.3, 3.4, and PyPy.
+Dockerfile for an Ubuntu 14.04 LTS container with Python 2.6, [2.7.9+][], 3.3, 3.4, 3.5, and PyPy.
 
 Includes the latest (at build time) pip/virtualenv for /usr/bin/python.
 
