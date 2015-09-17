@@ -19,6 +19,7 @@ RUN apt-get update \
     python2.7 python2.7-dev \
     python3.3 python3.3-dev \
     python3.4 python3.4-dev \
+    python3.5 python3.5-dev \
     pypy pypy-dev libffi-dev \
     python \
     git \
