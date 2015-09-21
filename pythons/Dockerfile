@@ -21,7 +21,7 @@ RUN apt-get update \
     python3.4 python3.4-dev \
     python3.5 python3.5-dev \
     pypy pypy-dev libffi-dev \
-    python \
+    python python-dev \
     git \
     curl ca-certificates \
     build-essential \
