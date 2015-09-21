@@ -35,5 +35,5 @@ RUN chmod a+rwx /.cache
 
 # Sane locale setting
 RUN locale-gen en_US.UTF-8
-env LANG en_US.UTF-8
-env LC_ALL en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
