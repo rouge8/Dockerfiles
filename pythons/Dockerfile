@@ -24,7 +24,7 @@ RUN apt-get update \
     python \
     git \
     curl ca-certificates \
-    gcc  make \
+    build-essential \
     --no-install-recommends
 RUN curl https://bootstrap.pypa.io/get-pip.py | python -
 RUN pip install virtualenv wheel
